@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <div class="top center">
+        <ul>
+            <li>
+                <img src="./image/url-3.jpg" alt="">
+            </li>
+            <img src="./image/url-4.png" alt="">
+        </ul>   
+    </div>
+    <div class="background">
+        <img src="./image/url2.jpg" alt="">
+        <div class="login-box">
+            <p>扫码登录更安全</p><br>
+            <div class="login-password">  
+                <div class="login-block">
+                    <a href="">密码登录</a>
+                    <a href="">短信登录</a> 
+                </div>
+                    <div class="panel-body">
+                        <span class="login_error hide">用户名或密码错误!</span>
+                        <form id="login">    
+                        <label for="username"  class="zzz">
+                            用户：<input type="text" name="username" autocomplete="off" id="username"  class="form-control" placeholder="会员名/邮箱/手机号"><br>
+                        </label>
+                        <label for="password">
+                            密码：<input type="text" name="password" autocomplete="off" id="password"  class="form-control" placeholder="请输入登录密码"><br>
+                        </label>
+                       <button type="submit" class="login btn btn-success ">登录</button>
+                        </form>
+                    </div>
+                    <div class="sm-btn">
+                        <a href="">忘记密码</a>
+                        <a href="">忘记用户名</a>
+                        <a href="">免费注册</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+</body>
+<script src="./assets/jquery/jquery.min.js"></script>
+<script src="./js/public.js"></script>
+<script src="./assets/jquery-validation/jquery.validate.js"></script>
+<script src="./assets/jquery-validation/localization/messages_zh.min.js"></script>
+<script src="./js/login.js"></script>
+</html>
